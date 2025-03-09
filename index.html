@@ -7,6 +7,8 @@
     <style>
         body {
             background-color: rgb(224, 224, 224);
+            margin: 0;
+            padding: 0;
         }
         #lampiran {
             background-color: white;
@@ -28,11 +30,13 @@
     </style>
 </head>
 <body>
-    <div id="lampiran">
+    <div id="lampiran" style="border-radius: 10px;">
         <div id="header">
-            <div class="nama" style="border-radius: 10px; background-color: lightskyblue;">
-                <span style="padding-left: 50px;"><img src="./saya2.jpg" alt="foto profile" width="100px" style="border-radius: 50%;"></span>
-                <h2 style="padding-left: 20px; float: right; padding-right: 80px; padding-top: 40px;">Ahmad Alvin Shofa Fahim Thoroba Habib</h2>
+            <div class="nama" style="border-radius: 10px; background-color: lightskyblue; display: flex; align-items: center; padding: 20px;">
+                <div style="width: 120px; height: 120px; overflow: hidden; border-radius: 50%; border: 5px solid white; display: flex; justify-content: center; align-items: center;">
+                    <img src="./saya2.jpg" alt="foto profile" width="120px" height="120px" style="border-radius: 50%; object-fit: cover;">
+                </div>
+                <h2 style="margin-left: 20px;">Ahmad Alvin Shofa Fahim Thoroba Habib</h2>
             </div>
             <div class="tentang" style="padding-left: 40px; padding-right: 40px;">
                 <p style="text-align: justify;">
@@ -42,6 +46,7 @@
                 </p>
             </div>
         </div>
+        
         <div id="Informasi">
             <div class="pendidikan">
                 <h3>Pendidikan</h3>
@@ -107,7 +112,7 @@
         </div>
         <div id="kontak">
             <h3>Kontak</h3>
-            <ul style="list-style: none; display: flex; justify-content: center; align-items: center; gap: 15px; padding: 0;">
+            <ul style="list-style: none; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 15px; padding: 0;">
                 <li class="wa" style="display: flex; align-items: center;">
                     <a href="http://wa.me/6281249782374" target="_blank" style="text-decoration: none; display: flex; align-items: center; color: black;">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/768px-WhatsApp.svg.png" 
